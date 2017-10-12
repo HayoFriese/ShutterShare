@@ -1,0 +1,2554 @@
+/* ================= HOME ================ */
+
+
+/* ================ ADMIN ================ */
+
+	.error-container {
+		width: 265px;
+		margin: 0 auto 15px;
+	}
+
+	#error-tag {
+		color: #fff;
+		margin-bottom: 20px;
+	}
+
+	.error-container > ul {
+		margin-left: 15px;
+	}
+
+	.error-container > ul > li {
+		list-style-type: square;
+		color: red !important;
+		text-align: left;
+	}
+
+	.error {
+		color: red !important;
+	}
+
+	.errors{
+		margin-bottom:25px;
+		list-style: square;
+		text-align: left;
+		}
+		.errors > li{
+			margin-left: 15px;
+			display:none;
+			list-style: square;
+			text-align: left;
+			color:red;
+			font-size: 14px;
+		}
+		.errors > .errorMessage{
+			font-size: 16px;
+			color:#25282B;
+			list-style: none;
+			margin-left: 0;
+			margin-bottom: 5px;
+		}
+
+	.admin{
+			background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+		}
+		.admin-login{
+			float:left;
+			width:100%;
+			height:100%;
+			background: url("../img/admin-v2.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+			}
+			.admin-login > section {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				padding: 50px;
+				background-color: rgba(0, 0, 0, 0.2);
+				}
+				.admin-login > section > #logo {
+					width: 300px;
+					display: block;
+					margin: 0 auto;
+					padding: 0 0 40px;
+					}
+					.admin-login > section > #logo > p {
+						color: #fff;
+						font-family: Lato Reg, arial, sans-serif;
+						text-align: center;
+						padding-top: 20px;
+						font-size: 18px;
+					}
+				.admin-login > section > form {
+					display: block;
+					text-align: center;
+					margin: 0 auto;
+					}
+					.admin-login > section > form > input[type=text],
+					.admin-login > section > form > input[type=password] {
+						display: block;
+						margin: 0 auto 15px;
+						width: 300px;
+		    			padding: 10px 10px 10px 14px;
+		    			background-color: white;
+		    			border: 1px solid #797979;
+		    			border-radius:5px;
+		    			font-size: 14px;
+		    			font-family: Lato Reg, sans-serif;
+		    			outline: none;
+						}
+						.admin-login > section > form > input:hover,
+						.admin-login > section > form > input:active,
+						.admin-login > section > form > input:focus{
+							border:1px solid #FFAF00;
+							background-color: #FFFFFF;
+						}
+					.admin-login > section > form > input[type="submit"]{
+						width: 300px;
+		    			padding: 10px 10px 10px 14px;
+						border:1px solid #FFAF00;
+						border-radius: 5px;
+						background-color: #FFAF00;
+						color:black;
+						margin:0;
+						margin-top: 15px;
+						}
+						.admin-login > section > form > input[type="submit"]:hover{
+							background-color: transparent;
+							color:white;
+							cursor:pointer;
+						}
+		#container {
+			width: auto;
+			padding:70px;
+			height: 100%;
+			background-color: #F1F4F9;
+			font-family: Helvetica, Arial, sans-serif;
+		}
+		#box {
+			width: auto;
+			margin: 0 auto;
+			padding: 45px;
+			height: 100%;
+			background-color: #fff;
+			overflow: hidden;
+			min-height: 355px;
+		}
+	
+		#box2 {
+			width: 100%;
+			height:calc(100% - 45px);
+			float:left;
+			margin: 0 auto;
+			padding: 20px 25px 0;
+			background-color: #fff;
+			}
+			#box2 ::-webkit-scrollbar {
+				width: 8px;
+				background-color: #D9DCE1;
+				}
+				#box2 ::-webkit-scrollbar-track {
+					border-radius: 10px;
+				}
+				#box2 ::-webkit-scrollbar-thumb {
+					border-radius: 10px;
+					background-color: #A0A7B4;
+				}
+			#box2 h1 {
+				font-size: 24px;
+				font-weight: 400;
+				color: #292f33;
+				padding-bottom: 25px;
+			}
+			#box2 > div {
+				height: 100%;
+			}
+			#box2 .admin-table-body {
+				height:calc(100% - 48px);
+				float:left;
+				}
+				#box2 table, .admin-table-body > table {
+					width: 100%;
+					margin: 0 auto;
+					text-align: left;
+					float:left;
+				}
+				#box2 .admin-table-body > table {
+					height:100%;
+					}
+					#box2 table thead {
+						text-transform: uppercase;
+						color: #292f33;
+						margin-bottom: 10px;
+						width: calc( 100% - 8px );
+						}
+						#box2 thead, #box2 tbody tr {
+							display:table;
+							width: 100%;
+							table-layout:fixed;
+						}
+						#box2 table > thead th {
+							padding-bottom: 20px;
+							}
+							#box2 table > thead th:nth-child(1) {
+								padding-left: 12px;
+							}
+							#box2 table > thead a {
+								text-decoration: none;
+								color: #292f33;
+								}
+					#box2 tbody {
+						height: 100%;
+						display:block;
+						overflow:auto;
+					}
+					#box2 .admin-table-body > table > tbody tr {
+						height: 50px;
+					}
+						#box2 .admin-table-body > table tbody tr:nth-child(odd) {
+							background-color: #f7f8fb;
+							}
+							#box2 .admin-table-body > table tbody td {
+								color: #66757f;
+								border-collapse: collapse;
+								text-overflow: ellipsis;
+								white-space: nowrap;
+								overflow: hidden;
+							}
+								#box2 .admin-table-body > table > tbody td:nth-child(1) {
+									padding-left: 12px;
+								}
+								#box2 .admin-table-body > table tbody tr:hover, table tbody tr:nth-child(odd):hover {
+									background-color: #D9DCE1;
+									cursor: pointer;
+								}
+
+			#grid-1 {
+				margin-right: 45px;
+			}
+
+			#users {
+				overflow-x: auto;
+			}
+			#adverts{
+				overflow-y:auto;
+			}
+
+			#box2 section {
+				margin-bottom: 25px;
+			}
+
+			#box2 section ul li {
+				 padding: 12px 0 12px 20px;
+				 color: #292f33;
+				 width: 600px;
+				 /*border-left: solid 4px #FFAF00;*/
+			 }
+
+			#box2 section ul li p {
+				display: inline-block;
+				width: 410px;
+			}
+
+			.border {
+				border-left: solid 4px #FFAF00;
+			}
+
+			.border li {
+				padding-left: 16px !important;
+			}
+
+			#box2 section ul li:nth-child(odd) {
+				background-color: #f7f8fb;
+			}
+
+			#box2 section ul li span {
+				display: inline-block;
+				width: 120px;
+				margin-right: 50px;
+				color: #66757f;
+				float: left;
+			}
+	
+			#box2 fieldset {
+				border: none;
+				margin-top: 10px;
+				}
+				#box2 fieldset > div {
+					margin-bottom: 35px;
+					}
+					#box2 fieldset > div > input[type=text],
+					#box2 fieldset > div > input[type=password],
+					#box2 fieldset > div > input[type=email],
+					#box2 select {
+						font-weight: 400;
+						border: 2px solid #CED9E6;
+						font-size: 11pt;
+						width: 230px;
+						height: 33px;
+						border-radius: 3px;
+						padding-left: 12px;
+						display: block;
+						margin-bottom: 15px;
+						color: #25282b;
+						transition: 0.2s ease;
+					}
+					#box2 select {
+						letter-spacing: normal;
+						text-transform: none;
+						padding-left: 10px;
+						line-height: 1;
+						height:33px;
+						padding:0;
+						padding-left:8px;
+					}
+					#box2 select:focus {
+						outline: none !important;
+						border: 2px solid #FFAF00;
+					}
+					#box2 fieldset > div > input[type=text]:focus,
+					#box2 fieldset > div > input[type=password]:focus,
+					#box2 fieldset > div > input[type=email]:focus {
+						outline: none !important;
+						border: 2px solid #FFAF00;
+					}
+					#box2 fieldset > div > ::-webkit-input-placeholder {
+						color: #66757f;
+						}
+						#box2 fieldset > div > ::-moz-placeholder {
+							color: #66757f;
+						}
+						#box2 fieldset > div > :-ms-input-placeholder {
+							color: #66757f;
+						}
+						#box2 fieldset > div > :-moz-placeholder {
+							color: #66757f;
+						}
+					#box2 fieldset > div > input[type="button"],
+					#box2 fieldset > div > input[type="submit"] {
+						width:230px;
+						height:33px;
+						font-size: 12px;
+						border-radius: 3px;
+						background-color: #FFAF00;
+						color: #373737;
+						border: none;
+						text-decoration: none;
+						text-transform: uppercase;
+						text-align: center;
+						font-weight: bold;
+						cursor: pointer;
+						}
+						#box2 fieldset > div > input[type="submit"]:disabled {
+							background-color: #BCC0CA;
+							cursor: not-allowed;
+						}
+	
+		#create, #createStep2, #unsuspend, #delete, #suspend, #restore, #resolve, #advertReports {
+			display: none;
+			overflow: auto;
+			width:100%;
+		}
+	
+		#userLink {
+			display: none;
+		}
+	
+		#breadcrumb > p, #breadcrumb > ul > li {
+			display: inline-block;
+		}
+		#breadcrumb > p, #breadcrumb > select {
+			font-size: 14px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			display: inline-block;
+			font-weight: 400;
+			margin-bottom: 20px;
+			}
+			#breadcrumb > p, #breadcrumb > p > span {
+				color: #BCC0CA;
+				}
+				#breadcrumb > p > a, #breadcrumb > p > span > a {
+					text-decoration: none;
+					color: #BCC0CA;
+					transition: 0.2s ease;
+					}
+					#breadcrumb > p > a:hover, #breadcrumb > p > span > a:hover {
+						text-decoration: none;
+						color: #66757f;
+					}
+			#breadcrumb > select {
+				color: #FFAF00;
+				font-weight: bold;
+				border: none;
+				margin-bottom: 0;
+				}
+				#breadcrumb > select > option {
+					color: #292f33;
+					font-weight: bold;
+					border: none;
+				}
+		#breadcrumb > div {
+			display: inline-block;
+			}
+			#breadcrumb > div > ul {
+				position:relative;
+				list-style: none;
+				vertical-align: top;
+				display: inline-block;
+				}
+				#breadcrumb > div > ul > li:nth-child(2) {
+					color:#FFAF00;
+					font-family: Lato Reg, Arial, sans-serif;
+					padding:20px;
+				}
+				#breadcrumb > div > ul > li > span {
+					text-decoration: none;
+					display: inline-block;
+					font-size: 14px;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					display: inline-block;
+					font-weight: 600;
+					margin-bottom: 20px;
+					float:left;
+					color:white;
+					font-size:14px;
+					height:100%;
+					}
+	
+					#breadcrumb > div > ul > li > span > p {
+						color: #BCC0CA;
+						display: inline-block;
+					}
+					#breadcrumb > div > ul > li > span > a {
+						color: #FFAF00;
+						text-decoration: none;
+						padding-bottom: 30px;
+						line-height: 1.3em;
+					}
+					#breadcrumb > div > ul > li > div > a {
+						text-transform: uppercase;
+						font-size: 12px;
+						line-height: 25px;
+						outline:1px solid #FFAF00;
+						background-color: rgba(19, 21, 20, 0);
+						padding:5px 10px;
+						color:white;
+						text-decoration: none;
+						transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+						}
+						#breadcrumb > div > ul > li:nth-child(3):hover > div > a {
+							background-color: rgba(255, 175, 0, 1);
+							color:black;
+						}
+				#breadcrumb > div > ul ul {
+					visibility:hidden;
+					opacity:0;
+					position:absolute;
+					top:35px;
+					padding:0 0 0px 0;
+					background-color: rgba(19, 21, 20, 0.8);
+					}
+					#breadcrumb > div > ul ul:after {
+						content:"";
+						position: absolute;
+						left:15px;
+						top: -9px;
+						width: 0;
+						height: 0;
+						border-style: solid;
+						border-width: 0 10px 10px 10px;
+						border-color: transparent transparent #FFAF00 transparent;
+						z-index:9999;
+					}
+					#breadcrumb > div > ul ul div {
+						height:7px;
+						background-color: #FFAF00;
+					}
+					#breadcrumb > div > ul ul li {
+						color:white;
+						padding: 4px 10px;
+						min-width: 125px;
+						transition: 0.2s ease;
+						}
+						#breadcrumb > div > ul ul li:hover {
+							background-color: rgba(19, 21, 20, 0.7);
+							box-shadow: inset 0 0 5px rgba(19, 21, 20, 1);
+						}
+						#breadcrumb > div > ul > li > div {
+							margin:20px;
+						}
+						#breadcrumb > div > ul ul li span {
+							float:right;
+							text-align: center;
+							width:27px;
+							transform:translateY(3px);
+							line-height: 19px;
+							font-size: 10px;
+							margin-left: 10px;
+							border-radius: 35%;
+							background-color: rgba(255, 175, 0, 1);
+							box-shadow: inset 0 0 1px rgba(19, 21, 20, 1);
+						}
+						#breadcrumb > div > ul ul li a {
+							color:white;
+							text-decoration: none;
+							padding:10px 5px;
+							display:block;
+						}
+				#breadcrumb > div > ul li:hover ul {
+					visibility:visible;
+					opacity:1 !important;
+					transition: 0.15s ease;
+				}
+
+/* =============== ACCOUNT =============== */
+	.account-side > .center > form > div > section > p{
+		font-size: 1em;
+		color: white;
+	}
+	#register-part2, #register-part3, #register-part4 {
+		display:none;
+	}
+
+	.account-side > .center{
+		position:absolute;
+		top:53%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		width: 50%;
+		text-align: center;
+		font-family: Lato Reg, arial, sans-serif;
+		}
+		.account-side > .center > form > div > .sign-in-register{
+			width:100%;
+			}
+			.account-side > .center > form > div > .register{
+				margin-top: 15px;
+				}
+				.account-side > .center > form > div > .sign-in-register > .reg-tag{
+					margin-bottom: 35px;
+				}
+				.account-side > .center > form > div > .register > p{
+					display: block;
+				    margin: 0 auto;
+					margin-bottom: 15px;
+					}
+					.account-side > .center > form > div > .register > p > a{
+						font-size: 1em;
+						color: #FFAF00;
+					}
+			.sign-in-register-title > h1{
+				font-size: 3.6em;
+				color: white;
+				font-family: Lato Reg, arial, sans-serif;
+				text-align: center;
+				margin-bottom: 35px;
+				}
+				.sign-in-register-title > .reg-head{
+					margin-bottom: 15px;
+				}
+				.sign-in-register-title > h1 > #share{
+					color: #FFAF00;
+				}
+
+
+		.account-side > .center > form > div > .sign-in-register > ::-webkit-input-placeholder {
+			color: #797979;
+		}
+		.account-side > .center > form > div > .sign-in-register > :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+			color: #797979;
+		}
+		.account-side > .center > form > div > .sign-in-register > ::-moz-placeholder, :-ms-input-placeholder {
+			color: #797979;
+		}
+		.account-side > .center > form > div > .sign-in-register > :-ms-input-placeholder {
+			color: #797979;
+		}
+
+
+		.account-side > .center > form > div > .sign-in-register > input[type="text"],
+			.account-side > .center > form > div > .sign-in-register > input[type="password"]{
+			width: 275px;
+			display:block;
+			margin:0 auto 15px;	
+			padding:12px 0;
+			text-indent: 15px;
+			background-color: white;
+			border: 1px solid #797979;
+			border-radius: 5px;
+			color: #000;
+			font-family: Lato Reg, arial, sans-serif;
+			font-size: 14px;
+			outline: none;
+			}
+			.account-side > .center > form > div > .sign-in-register > p{
+				font-size: 1em;
+				color:white;
+			}
+			.account-side > .center > form > div > .sign-in-register > select{
+				padding:12px 0;
+   				margin: 0 auto;
+   				margin-bottom: 15px;
+   				text-indent: 15px;
+   				width:275px;
+   				display: block;
+   				background-color: white;
+   				border: 1px solid #797979;
+   				border-radius: 5px;
+   				color: #797979;
+   				font-family: Lato Reg, arial, sans-serif;
+   				font-size: 14px;
+				}
+			.account-side > .center > form > div > .sign-in-register > input[type=button],
+				.account-side > .center > form > div > .sign-in-register > input[type=submit]{
+					width:275px;
+					display:block;
+				    background-color: #FFAF00;
+				    border-radius: 5px;
+				    font-family: Lato SemiBold, arial, sans-serif;
+				    font-size: 1em;
+				    color: #25282b;
+				    letter-spacing: 1px;
+				    padding: 10px 40px;
+				    text-decoration: none;
+				    text-transform: uppercase;
+				    cursor: pointer;
+				    border: 1px solid #FFAF00;
+				    margin: 15px auto;
+				    transition: color 0.3s ease-in-out,
+				    			background-color 0.3s ease-in-out;
+				}
+				.account-side > .center > form > div > .sign-in-register > input[type=button]:hover,
+					.account-side > .center > form > div > .sign-in-register > input[type=submit]:hover{
+				    background-color: transparent;
+				    color: white;
+				}
+				.account-side > .center > form > div > .sign-in-register > #google{
+					background-color: #FE0000;
+			    	background-image: url('../img/google+.svg');
+			    	background-position: 75% 50%;
+			   		background-size: 20px;
+			   		background-repeat: no-repeat;
+			   		border: 1px solid #DA4938;
+			   		color:white;
+					}
+					.account-side > .center > form > div > .sign-in-register > #google:hover{
+			    		background-color: transparent;
+					}
+	
+		.account-side > .center > .white{
+			color:red;
+		}
+	.acc-man{
+		background-color: white;
+		margin: 25px 100px;
+		padding: 25px;
+		width:500px;
+		float:left;
+		font-family: Lato Reg, arial, sans-serif;
+		}
+		.acc-man > h1{
+			font-size: 28px;
+			display:block;
+			color:black;
+			margin-bottom: 15px;
+		}
+		.acc-man > #pers-edit,
+		.acc-man > #pay-edit,
+		.acc-man > #ad-edit{
+			display:none;
+		}
+		.acc-man > div > p{
+			font-size: 14px;
+			color:black;
+			text-align: left;
+			margin-bottom: 10px;
+		}
+		.acc-man > div > form > input[type="number"],
+		.acc-man > form > input[type="number"]{
+			width:120px;
+			display:block;
+			margin-bottom: 15px;	
+			padding:8px 0;
+			text-indent: 15px;
+			background-color: white;
+			border: 1px solid #797979;
+			font-family: Lato Reg, arial, sans-serif;
+			font-size: 14px;
+			outline: none;
+			float:left;
+			transition: border 0.3s ease-in-out;
+			}
+			.acc-man > div > form > input[name="expmonth"],
+		.acc-man > form > input[name="expmonth"]{
+			margin-right: 10px;
+		}
+		.acc-man > div > form > input[type="text"],
+		.acc-man > form > input[type="text"],
+		.acc-man > div > form > select,
+		.acc-man > form > select{
+			width:250px;
+			display:block;
+			margin-bottom: 15px;	
+			padding:8px 0;
+			text-indent: 15px;
+			background-color: white;
+			border: 1px solid #797979;
+			font-family: Lato Reg, arial, sans-serif;
+			font-size: 14px;
+			outline: none;
+			transition: border 0.3s ease-in-out;
+			}
+			.acc-man > div > form > input[type="text"]:focus,
+			.acc-man > div > form > input[type="text"]:hover,
+			.acc-man > div > form > input[type="text"]:active
+			.acc-man > div > form > input[type="number"]:focus,
+			.acc-man > div > form > input[type="number"]:hover,
+			.acc-man > div > form > input[type="number"]:active
+			.acc-man > div > form > select:focus,
+			.acc-man > div > form > select:hover,
+			.acc-man > div > form > select:active{
+				border:1px solid #FFAF00;
+			}
+		.acc-man > div > button,
+		.acc-man > div > form > input[type="submit"],
+		.acc-man > form > input[type="submit"]{
+			width:150px;
+			display:block;
+			background-color: #FFAF00;
+			border-radius: 0px;
+			font-family: Lato Reg, arial, sans-serif;
+			font-size: 12px;
+			color: #25282b;
+			letter-spacing: 1px;
+			padding: 10px 0;
+			margin-top: 20px;
+			text-decoration: none;
+			text-align: center;
+			text-transform: uppercase;
+			cursor: pointer;
+			border: 1px solid rgba(255, 175, 0, 1);
+			transition: background-color 0.3s ease-in-out;
+			}
+			.acc-man > div > button:hover, 
+			.acc-man > div > button:focus, 
+			.acc-man > div > button:active
+			.acc-man > div > form > input[type="submit"]:hover,
+			.acc-man > form > input[type="submit"]:hover{
+				background-color: transparent;
+				color:#1F3072;
+				outline:none;
+			}
+
+/* ================ INBOX ================ */
+	.back-end > .inbox{
+		float:left;
+		width:100%;
+		height:100%;
+		background-color: white;
+		position:relative;
+		}
+		.inbox > div{
+			float:left;
+			height:37px;
+			width:100%;
+			background-color: rgba(255, 175, 0, 1);
+			}
+			.inbox > div > ul{
+				height:100%;
+				float:left;
+				position:relative;
+				}
+				.inbox > div > ul > li{
+					float:left;
+				}
+				.inbox > div > ul > li > a, 
+				.inbox > div > ul > li > form > a{
+					display:inline-block;
+					position:relative;
+					float:left;
+					height:100%;
+					padding: 10px 30px;
+					border-right:0.25px solid rgba(0,0,0,0.4);
+					font-size: 14px;
+					font-family: Lato Light, arial, sans-serif;
+					text-decoration: none;
+					color:black;
+					}
+					.inbox > div > ul > li > a > img, 
+					.inbox > div > ul > li > form > a > img{
+						width:12px;
+						margin-right: 7px;
+					}
+				.inbox > div > ul ul{
+					visibility:hidden;
+					opacity:0;
+					position:absolute;
+					top:36px;
+					font-size: 13px;
+					font-family: Lato Light, arial, sans-serif;
+					background-color: rgba(19, 21, 20, 0.8);
+				}
+				.inbox > div > ul > li:hover{
+					background-color: rgba(235, 165, 12, 0.8);
+				}
+				.inbox > div > ul ul li{
+					color:white;
+					position:relative;
+					min-width: 180px;
+					}
+					.inbox > div > ul ul li:hover{
+						background-color: rgba(255, 175, 0, 0.9);
+						color:black;
+					}
+					.inbox > div > ul > li > ul > li:hover > ul{
+						visibility:visible;
+						opacity:1;
+					}
+					.inbox > div > ul ul li > a{
+						text-decoration: none;
+						color:white;
+						padding: 14px 20px;
+						display:block;
+						width:100%;
+						}
+						.inbox > div > ul ul > li:hover > a{
+							color:black;
+						}
+					.inbox > div > ul ul li > a > span{
+						float:right;
+					}
+					.inbox > div > ul > li:hover > ul{
+						visibility:visible;
+						opacity:1;
+						z-index: 1;
+					}
+				.inbox > div > ul ul ul{
+					position:absolute;
+					top:0;
+					left:180px;
+					visibility: hidden;
+					opacity:0;
+					}
+			.inbox > div > div{
+				float:right;
+				margin-right: 25px;
+				height:100%;
+				padding:6px 2px;
+				font-size: 12px;
+				font-family: Lato Light, arial, sans-serif;
+				}
+				.inbox > div > div > input[type="text"]{
+					height:25px;
+					border-radius: 25px;
+					border:none;
+					font-size: 12px;
+					padding:2px 20px;
+					width:500px;
+				}
+		.inbox > article{
+			float:left;
+			height:calc(100% - 37px);
+			max-height:calc(100% - 37px);
+			}
+			.inbox > .inbox-nav{
+				width:180px;
+				background-color: rgba(255, 175, 0, 0.02);
+				}
+				.inbox > .inbox-nav > ul{
+					position:relative;
+					float:left;
+					width:100%;
+					}
+					.inbox > .inbox-nav > ul > li{
+						float:left;
+						font-family: Lato Reg, arial, sans-serif;
+						font-size: 14px;
+						width:100%;
+						opacity:0.5;
+						}
+						.inbox > .inbox-nav > ul > li > a, 
+						.inbox > .inbox-nav > ul > li.active > a{
+							display:block;
+							text-decoration: none;
+							color:black;
+							padding:16px;
+						}
+
+						.inbox > .inbox-nav > ul > li > a > img{
+							float:left;
+							width:14px;
+							margin-top: 1px;
+							margin-right: 10px;
+						}
+						.inbox > .inbox-nav > ul > li > a > span{
+							float:right;
+						}
+					.inbox > .inbox-nav > div{
+						float:left;
+						width:100%;
+						text-align: center;
+						display:block;
+						}
+						.inbox > .inbox-nav > div > a{
+							text-align: center;
+							font-size: 14px;
+							text-decoration: none;
+							color:rgba(0, 0, 0, 0.5);
+						}
+					.inbox > .inbox-nav > ul > li.active{
+						background-color: rgba(255, 175, 0, 0.5);
+						opacity:1;
+					}
+					.inbox > .inbox-nav > ul > li:hover{
+						background-color: rgba(255, 175, 0, 0.5);
+						opacity:1;
+					}
+					.inbox > .inbox-nav > .extra-folders{
+						display:none;
+						height:0;
+	
+						}
+						.inbox > .inbox-nav > .extra-folders::-webkit-scrollbar{
+							width:8px;
+							background-color: transparent;
+							}
+							.inbox > .inbox-nav > .extra-folders::-webkit-scrollbar-track{
+								background-color: transparent;
+							}
+							.inbox > .inbox-nav > .extra-folders::-webkit-scrollbar-thumb{
+								border-radius: 6px;
+								background-color: #BABABA;
+								border: 2px solid transparent;
+								background-clip: content-box;
+							}
+					.inbox > .inbox-nav > .view-folders{
+						display:block;
+						height:0;
+						-webkit-transition:height 0.6s ease-in-out;
+						transition:height 0.6s ease-in-out;
+						}
+			
+			.inbox > .inbox-list{
+				width:425px;
+				float:left;
+				height:100%;
+				}
+				.inbox-list > header{
+					height:49px;
+					width:100%;
+					float:left;
+					background-color: rgba(255, 175, 0, 0.1);
+					border-bottom:1px solid rgba(0,0,0,0.1);
+					}
+					.inbox-list > header > p > input[type="checkbox"]{
+						float:left;
+						display:inline-block;
+						margin-top:3px;
+					}
+					.inbox-list > header > p{
+						padding:16px 20px;
+						float:left;
+						font-size: 13px;
+						font-family: Lato Reg, arial, sans-serif;
+						color:rgba(0, 0, 0, 0.4);
+						}
+						.inbox-list > header > p > span{
+							margin-left: 20px;
+						}
+						.inbox-list > header > p > span > select{
+							opacity:1;
+							border:none;
+							background:none;
+							font-size: 13px;
+							font-family: Lato Reg, arial, sans-serif;
+							padding:0;
+							margin:0;
+						}
+				.inbox-list > div{
+					float:left;
+					width:100%;
+					height:calc(100% - 49px);
+					max-height: calc(100% - 49px);
+					overflow-y:auto;
+					}
+					.inbox-list > div::-webkit-scrollbar{
+						width:8px;
+						background-color: transparent;
+						}
+						.inbox-list > div::-webkit-scrollbar-track{
+							background-color: transparent;
+						}
+						.inbox-list > div::-webkit-scrollbar-thumb{
+							border-radius: 6px;
+							background-color: #BABABA;
+							border: 2px solid transparent;
+							background-clip: content-box;
+						}
+					.inbox-list > div > div{
+						float:left;
+						width:100%;
+						border-bottom:1px solid rgba(0, 0, 0, 0.1);
+						background-color: rgba(255,175,0, 0);
+						}
+						.inbox-list > div > div:hover{
+							background-color: rgba(255, 175, 0, 0.1);
+						}
+						.inbox-list > div > div > .check{
+							height:100%;
+							padding:42px 20px;
+							float:left;
+						}
+						.inbox-list > div > div > .message-blob{
+							width:calc(100% - 53px);
+							float:left;
+							position:relative;
+							}
+							.inbox-list > div > div > .message-blob > a{
+								position:relative;
+								float:left;
+								width: 100%;
+								padding: 21px 20px;
+								padding-left: 0;
+								text-decoration: none;
+								color:rgba(0, 0, 0, 1);
+							}
+							
+							.inbox-list > div > div > .message-blob > a > h1{
+								line-height: 1;
+								font-family: Lato SemiBold, arial, sans-serif;
+								font-size: 15px;	
+								width:100%;
+								float:left;
+								margin-bottom: 10px;
+								}
+								.inbox-list > div > div > .message-blob > a > h1 > span{
+									vertical-align: middle;
+									float:right;
+									font-family: Lato Light, arial, sans-serif;
+									font-size:10px;
+									color: rgba(0, 0, 0, 0.5);
+								}
+							.inbox-list > div > div > .message-blob > a > h2{
+								font-family: Lato Reg, arial, sans-serif;
+								font-size: 12px;
+								float:left;
+								width:60%;
+								text-overflow:ellipsis;
+								white-space: nowrap;
+								overflow: hidden;
+								margin-bottom:10px;
+							}
+							.inbox-list > div > div > .message-blob > a > p{
+								font-size: 10px;
+								float:left;
+								font-family: Lato Reg, arial, sans-serif;
+								text-overflow:ellipsis;
+								white-space: nowrap;
+								overflow: hidden;
+								width:85%;
+								max-width: 85%;
+								opacity:0.5;
+							}
+							.inbox-list > div > div > .message-blob > a:nth-child(2){
+								position:absolute;
+								top:60%;
+								width:50px;
+								transform:translateY(-50%);
+								right:0;
+								display:block;
+								}
+								.inbox-list > div > div > .message-blob > a:nth-child(2) > img{
+									height:25px;
+									width:25px;
+								}
+						
+						.inbox-list > div > .read > .message-blob > a > h1,
+						.inbox-list > div > .read > .message-blob > a > h2,
+						.inbox-list > div > .active > .message-blob > a > h1,
+						.inbox-list > div > .active > .message-blob > a > h2{
+							font-family: Lato Thin, arial, sans-serif;
+						}
+						
+						.inbox-list > div > .active,
+						.inbox-list > div > .active-flagged{
+							background-color: rgba(255, 175,0, 0.3);
+							}
+							.inbox-list > div > .active:hover{
+								background-color: rgba(255, 175, 0, 0.3);
+							}
+						.inbox-list > div > .flagged,
+						.inbox-list > div > .active-flagged{
+							border-left: 4px solid rgba(196, 0, 0, 1);
+						}
+						.inbox-list > div > .unread{
+							border-left: 4px solid rgba(255, 175, 0, 1);
+							}
+							.inbox-list > div > .unread > .check, 
+							.inbox-list > div > .flagged > .check, 
+							.inbox-list > div > .active-flagged > .check{
+								padding-left: 16px;
+							}
+			
+			.inbox > .inbox-right-pane{
+				border-left: 1px solid rgba(0, 0, 0, 0.05);
+				width:calc(100% - 425px - 180px - 1px);
+				min-height:calc(100% - 44px);
+				overflow-y:auto;
+				float:left;
+				}
+				#inbox-new > .image-list-new, 
+				#inbox-reply > .image-list-reply{
+					display:none;
+				}
+				#inbox-new > .attach-list-new,
+				#inbox-reply > .attach-list-reply{
+					max-height:100px;
+					overflow-y:auto;
+					width:100%;
+					}
+					#inbox-new > .attach-list-new > div,
+					#inbox-reply > .attach-list-reply > div{
+						float:left;
+						padding:5px 25px;
+						color:#0024C4;
+						font-family: Lato SemiBold, arial, sans-serif;
+						font-size: 0.6em;
+						width:100%;
+						background-color: rgba(0, 0, 0, 0.05);
+						border-bottom:1px solid rgba(0, 0, 0, 0.1);
+						}
+						#inbox-new > .attach-list-new > div > p,
+						#inbox-reply > .attach-list-reply > div > p{
+							float:left;
+							display:block;
+							width:100%;
+						}
+						#inbox-new > .attach-list-new > div > p > span,
+						#inbox-reply > .attach-list-reply > div > p > span{
+							float: right;
+						}
+				.inbox-right-pane::-webkit-scrollbar{
+					width:12px;
+					background-color: transparent;
+					}
+					.inbox-right-pane::-webkit-scrollbar-track{
+						background-color: transparent;
+					}
+					.inbox-right-pane::-webkit-scrollbar-thumb{
+						border-radius: 6px;
+						background-color: #878787;
+						border: 3px solid transparent;
+						background-clip: content-box;
+					}
+				.inbox-right-pane > .message-flagged{
+					width:100%;
+					display:block;
+					float:left;
+					background-color: red;
+					padding:5px 0;
+					}
+					.inbox-right-pane > .message-flagged > p{
+						text-align: center;
+						font-family: Lato Reg, arial, sans-serif;
+						font-size: 0.5em;
+						color: rgba(255, 255, 255, 0.8);
+					}
+				.inbox-right-pane > .inbox-view-message{
+					padding:50px 60px;
+					width:100%;
+					float:left;
+					font-family: Lato Light, arial, sans-serif;
+					font-size: 1em;
+					}
+					.inbox-view-message > header{
+						float:left;
+						height:40px;
+						width:100%;
+						margin-bottom: 10px;
+						position:relative;
+						}
+						.inbox-view-message > header > h2{
+							font-family: Lato Light, arial, sans-serif;
+							font-size: 14px;
+							color:rgba(0, 0, 0, 0.5);
+							}
+							.inbox-view-message > header > h2 > span{
+								color:rgba(0, 0, 0, 1);
+								font-family: Lato Reg, arial, sans-serif;
+							}
+						.inbox-view-message > header > h3{
+							font-family: Lato Reg, arial, sans-serif;
+							margin-top: 2px;
+							font-size: 10px;
+							color:rgba(0, 0, 0, 0.3);
+						}
+						.inbox-view-message > header > div{
+							position:absolute;
+							right:0;
+							top:0;
+							width:55px;
+							}
+							.inbox-view-message > header > div > a > img, 
+							.inbox-view-message > header > div > form > a > img{
+								height:16px;
+								float:left;
+								opacity:0.5;
+								}
+								.inbox-view-message > header > div > a > img:hover, 
+								.inbox-view-message > header > div > form > a > img:hover{
+									opacity:1;
+									cursor:pointer;
+								}
+							.inbox-view-message > header > div > div{
+								width:1px;
+								float:left;
+								height:16px;
+								background-color: rgba(0, 0, 0, 0.3);
+								margin:0 6px;
+							}
+					.inbox-view-message > h1{
+						font-size: 32px;
+						font-family: Lato Reg, arial, sans-serif;
+						margin-bottom: 25px;
+					}
+					.inbox-view-message > .message-body{
+						font-family: Lato Light, arial, sans-serif;
+						font-size: 0.85em;
+						overflow-wrap:break-word;
+					}
+					.inbox-view-message > .message-body > img, .inbox-view-message > .message-body > div > img,
+					#inbox-new-body > img, #inbox-new-body > div > img, #inbox-reply-body > img, #inbox-reply-body > div > img,
+					#inbox-draft-send > #inbox-draft-body > img, #inbox-draft-send > #inbox-draft-body > div > img {
+						max-width:100%;
+						}
+						.new-content > img, .draft-content > img, .reply-content > img, 
+						.new-content > div > img, .draft-content > div > img, .reply-content > div > img,
+						.new-content > p > img, .draft-content > p > img, .reply-content > p > img, 
+						.new-content > div > p > img, .draft-content > div > p > img, .reply-content > div > p > img,
+						.new-content > div p img, .draft-content > div p img, .reply-content > div p img{
+							max-width: 100%;
+						}
+
+					.inbox-view-message > .message-body > h1, .inbox-view-message > .message-body > div > h1{
+						font-family: Lato SemiBold, arial, sans-serif;
+						font-size: 1.4em;
+						}
+						.new-content > h1, .draft-content > h1, .reply-content > h1, 
+						.new-content > div > h1, .draft-content > div > h1, .reply-content > div > h1{
+							font-family: Lato SemiBold, arial, sans-serif;
+							font-size: 1.3em;
+						}
+					.inbox-view-message > .message-body > h2, .inbox-view-message > .message-body > div > h2{
+						font-family: Lato SemiBold, arial, sans-serif;
+						font-size: 1.3em;
+						}
+						 .new-content > h2, .draft-content > h2, .reply-content > h2, 
+						 .new-content > div >h2, .draft-content > div >h2, .reply-content > div >h2{
+						 	font-family: Lato SemiBold, arial, sans-serif;
+						 	font-size: 1.2em;
+						 }
+					.inbox-view-message > .message-body > h3, .inbox-view-message > .message-body > div > h3{
+						font-family: Lato Reg, arial, sans-serif;
+						font-size: 1.15em;
+						}
+						.new-content > h3, .draft-content > h3, .reply-content > h3,
+						.new-content > div > h3, .draft-content > div > h3, .reply-content > div > h3{
+							font-family: Lato Reg, arial, sans-serif;
+							font-size: 1.05em;
+						}
+					.inbox-view-message > .message-body > h4, .inbox-view-message > .message-body > div > h4{
+						font-family: Lato Reg, arial, sans-serif;
+						font-size: 1em;
+						}
+						.new-content > h4, .draft-content > h4, .reply-content > h4, 
+						.new-content > div > h4, .draft-content > div > h4, .reply-content > div > h4{
+							font-family: Lato Reg, Arial, sans-serif;
+							font-size: 0.9em;
+						}
+					.inbox-view-message > .message-body > ul, .inbox-view-message > .message-body > div > ul{
+						margin-left: 15px;
+						list-style: square;
+						}
+						.new-content > ul, .draft-content > ul, .reply-content > ul, 
+						.new-content > div > ul, .draft-content > div > ul, .reply-content > div > ul,
+						.new-content > p > ul, .draft-content > p > ul, .reply-content > p > ul, 
+						.new-content > div > p > ul, .draft-content > div > p > ul, .reply-content > div > p > ul{
+							margin-left: 15px;
+							list-style: square;
+						}
+					.inbox-view-message > .message-body > ol, .inbox-view-message > .message-body > div > ol{
+						margin-left: 15px;
+						}
+						.new-content > ol, .draft-content > ol, .reply-content > ol, 
+						.new-content > div > ol, .draft-content > div > ol, .reply-content > div > ol,
+						.new-content > p > ol, .draft-content > p > ol, .reply-content > p > ol, 
+						.new-content > div > p > ol, .draft-content > div > p > ol, .reply-content > div > p > ol{
+							margin-left: 15px;
+						}
+					.inbox-view-message > .message-body > blockquote, .inbox-view-message > .message-body > div > blockquote{
+						margin-left: 15px;
+						}
+						.new-content > blockquote, .draft-content > blockquote, .reply-content > blockquote,
+						.new-content > div > blockquote, .draft-content > div > blockquote, .reply-content > div > blockquote,
+						.new-content > p > blockquote, .draft-content > p > blockquote, .reply-content > p > blockquote, 
+						.new-content > div > p > blockquote, .draft-content > div > p > blockquote, .reply-content > div > p > blockquote{
+							margin: 10px 0 10px 15px;
+    						padding: 10px 0 10px 15px;
+    						border-left: 2px solid rgba(0,0,0,0.1);
+    						font-style: italic;
+	    					color: rgba(0, 0, 0, 0.7);
+						}
+					.inbox-view-message > .message-body > hr{
+						margin-top:15px;
+						}
+						#reply-message > hr{
+							margin-top:15px;	
+						}
+					#reply-message{
+						padding:10px 0px 5px 0;
+						}
+					.inbox-view-message > .message-body > p{
+						line-height: 20px;
+						}
+						.new-content, .reply-content, .draft-content{
+							font-family: Lato Light, arial, sans-serif;
+							font-size: 0.8em;
+							line-height: 18px;
+						}
+					.inbox-view-message > p{
+						font-family: Lato Light, Arial, sans-serif;
+						font-size: 14px;
+						line-height: 20px;
+					}
+					.inbox-view-message > br{
+						line-height: 25px;
+					}
+					.inbox-view-message > form{
+						float:left;
+						width:100%;
+						margin-top: 30px;
+						border-top: 1px solid rgba(0, 0, 0, 0.2);
+						padding-top: 30px;
+						position:relative;
+						display:none;
+					}
+					.inbox-view-message > form > p > a{
+						text-decoration: none;
+						top:5px;
+						left:0;
+						position:absolute;
+						font-family: Lato Light, arial, sans-serif;
+						color:rgba(0, 0, 0, 0.5);
+						}
+						.inbox-view-message > form > p > a:hover{
+							color:rgba(255, 175, 0, 0.5);
+						}
+					.inbox-view-message > form > h4{
+						font-family: Lato Reg, Arial, sans-serif;
+						float:left;
+						margin-bottom: 10px;
+					}
+					.inbox-view-message > form > input[type="text"]{
+						float: left;
+    					width: 100%;
+    					padding: 8px;
+   						font-size: 12px;
+    					margin-bottom: 17px;
+    					border:none;
+    					background-color: rgba(0, 0, 0, 0.03);
+    					color:rgba(0, 0, 0, 0.5);
+    					outline:1px solid rgba(0, 0, 0, 0.3);
+						}
+					.inbox-view-message > form > .reply-content{
+						outline:1px solid rgba(0, 0, 0, 0.3);
+						min-height: 200px;
+						padding:15px;
+						float:left;
+						width:100%;
+						margin:5px 0;
+						}
+						.inbox-view-message > form > .reply-content:focus,
+						.inbox-view-message > form > .reply-content:hover,
+						.inbox-view-message > form > .reply-content:active{
+							outline:1px solid rgba(0, 0, 0, 0.5);
+						}
+					.inbox-view-message > form > input[type="submit"]{
+						margin-top:10px;
+						margin-bottom:15px;
+						float:left;
+						border:1px solid rgba(255, 175, 0, 1);
+						padding:10px 25px;
+						background-color: rgba(255, 175, 0, 1);
+						color:white;
+						font-family: Lato Reg, Arial, sans-serif;
+						font-size: 12px;
+						transition:background-color 0.3s ease-in-out,
+							color 0.3s ease-in-out;
+						}
+						.inbox-view-message > form > input[type="submit"]:hover{
+							color:black;
+							background-color: rgba(255, 255, 255, 1);
+							cursor:pointer;
+						}
+	
+				.inbox-right-pane > .inbox-new-message{
+					padding:50px 70px;
+					width:100%;
+					float:left;
+					}
+					.inbox-new-message > form{
+						float:left;
+						width:100%;
+						position:relative;
+						}
+						.inbox-new-message > form > input[type="text"]{
+							float:left;
+							width:100%;
+							padding:8px;
+							font-size: 12px;
+							margin-bottom: 17px;
+						}
+						.inbox-new-message > form > .new-content, 
+						.inbox-new-message > form > .draft-content{
+							border:1px solid rgba(0, 0, 0, 0.3);
+							min-height: 200px;
+							padding:15px;
+							float:left;
+							width:100%;
+							margin:5px 0;
+						}
+						.inbox-new-message > form > input[type="submit"]{
+							margin-top:10px;
+							margin-bottom: 15px;
+							border:1px solid rgba(255, 175, 0, 1);
+							padding:10px 25px;
+							background-color: rgba(255, 175, 0, 1);
+							color:white;
+							float:left;
+							font-family: Lato Reg, Arial, sans-serif;
+							font-size: 12px;
+							transition:background-color 0.3s ease-in-out,
+								color 0.3s ease-in-out;
+							}
+							.inbox-new-message > form > input[type="submit"]:hover{
+								color:black;
+								background-color: rgba(255, 255, 255, 1);
+								cursor:pointer;
+							}
+	
+				.inbox-right-pane > .inbox-empty{
+					float:left;
+					width:100%;
+					height:100%;
+					position:relative;
+					display:block;
+					}
+					.inbox-empty > p{
+						position:absolute;
+						font-family: Lato Light, arial, sans-serif;
+						font-size: 16px;
+						text-align: center;
+						width:100%;
+						top:50%;
+						transform:translateY(-50%);
+						opacity:0.3;
+					}
+
+/* =============== BOOKING =============== */
+	.book-list{
+		margin:50px 0 75px 100px;
+		overflow-x:auto;
+		overflow-y:hidden;
+		height:280px;
+		width:calc(100% - 200px);
+		}
+		.book-list > div{
+			width:1000%;
+		}
+	#book-advert-back{
+		margin: 15px 0px 15px 100px;
+	}
+	#insert-left{
+		margin-left: 100px;
+	}
+	.book-advert-back{
+		margin:0 50px 20px 0;
+		float:left;
+		background-color: white;
+		padding: 25px 25px 15px;
+		display:inline-block;
+		font-family: Lato Reg, arial, sans-serif;
+		}
+		.book-advert-back > p {
+	  		color: #77787b;
+	  		display:block;
+	  		font-size: 0.8em;
+	  		margin-bottom:25px;
+			}
+			.book-advert-back > p > span {
+				float: right;
+			}
+		.book-advert-back > .book-data{
+			display:block;
+			}
+			.book-advert-back > .book-data > img {
+			  	width: 175px;
+			  	display:inline-block;
+			  	vertical-align: middle;
+			  	position: relative;
+			}
+			.book-advert-back > .book-data > div{
+				position:relative;
+				vertical-align: middle;
+				display:inline-block;
+				margin-left: 15px;
+				}
+				.book-advert-back > .book-data > div > ul {
+	  				color: #77787b;
+	  				vertical-align: bottom;
+					}
+					.book-advert-back > .book-data > div > ul > li{
+						display:block;
+						margin-bottom: 15px;
+						}
+						.book-advert-back > .book-data > div > ul > li > span{
+							color:#2A4189;
+						}
+						#accountButtonLink {
+							background-color: #FFAF00;
+							transition:background-color 0.3s ease-in-out,
+							color 0.3s ease-in-out;
+							font-family: Lato Reg, arial, sans-serif;
+							font-size: 0.9em;
+							font-weight: bold;
+							color: #353535;
+							padding: 7px 0;
+							text-decoration: none;
+							text-transform: uppercase;
+							cursor: pointer;
+							border: 1px solid #FFAF00;
+							display:block;
+							width: 175px;
+							text-align: center;
+						}
+						#accountButtonLink:hover, #accountButtonLinkWide:hover {
+						  	background-color: #353535;
+						  	border: 1px solid #353535;
+						  	color: #FFFFFF;
+						}
+		.book-advert-back > .tick{
+			display:block;
+			margin:15px 0 25px;
+			}
+			.book-advert-back > .tick > img {
+	  			display: inline-block;
+	  			width: 20px;
+			}
+			.book-advert-back > .tick > p {
+				margin-left: 10px;
+				display:inline-block;
+	  			color: #77787b;
+	  			font-size: 1em;
+			}
+			#accountButtonLinkWide{
+			background-color: #FFAF00;
+			transition:background-color 0.3s ease-in-out,
+			color 0.3s ease-in-out;
+			font-family: Lato Reg, arial, sans-serif;
+			font-size: 0.9em;
+			font-weight: bold;
+			color: #353535;
+			padding: 10px 0;
+			text-decoration: none;
+			text-transform: uppercase;
+			cursor: pointer;
+			border: 1px solid #FFAF00;
+			display:block;
+			width: 350px;
+			text-align: center;
+		}
+
+	#site > .center{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		width:400px;
+		text-align: center;
+		font-family: Lato Reg, arial, sans-serif;
+		}
+		#site > .center > .book-advert-back{
+			margin:0;
+			}
+			#site > .center > .book-advert-back > p{
+				text-align: left;
+			}
+			#site > .center > .book-advert-back > .tick{
+				display:block;
+				text-align: left;
+			}
+			#site > .center > .book-advert-back > .book-data > div > ul{
+				text-align: left;
+			}
+		#site > .center > .breadcrumb{
+			margin:0;
+			margin-bottom: 30px;
+			text-align: left;
+			display:block;
+			}
+			#site > .center > .breadcrumb > p{
+				display:inline;
+			}
+		#site > .center > h1{
+			margin:0;
+			margin-bottom: 25px;
+			padding:0;
+			font-size: 2.6em;
+			text-align: left;
+			color:white;
+			display:block;
+		}
+		#site > .center > .form-background{
+			margin:0;
+			}
+			#booking-step-1, #booking-step-3{
+				display:none;
+			}
+			#site > .center > .form-background > form > div > select{
+		   		padding: 5px 10px 7px 10px;
+		   		margin:0;
+		   		margin-bottom: 15px;
+		    	width: 350px;
+		    	display:block;
+		    	background-color: white;
+		    	border: 1px solid #797979;
+		    	color: #797979;
+		    	font-family: Lato Reg, arial, sans-serif;
+		    	font-size: 1em;
+				}
+				#site > .center > .form-background > form > div > #expiryMonth,
+				#site > .center > .form-background > form > div > #expiryYear{
+					width:165px;
+					display:inline;
+				}
+				#site > .center > .form-background > form > div > #expiryMonth {
+				  margin-right: 15px;
+				}
+				#site > .center > .form-background > form > div > select:focus {
+				    border: 1px solid #FFAF00;
+				    color: black;
+				    outline: none;
+				}
+			#site > .center > .form-background > form > div > input{
+				margin-bottom: 15px;
+				width: 350px;
+	    		padding: 5px 10px 7px 14px;
+	    		background-color: white;
+	    		border: 1px solid #797979;
+	    		color: #797979;
+	    		font-family: 'Lato', sans-serif;
+	    		font-size: 1em;
+	    		outline: none;
+				}
+				#site > .center > .form-background > form > div > input:hover,
+				#site > .center > .form-background > form > div > input:active,
+				#site > .center > .form-background > form > div > input:focus{
+					border:1px solid #FFAF00;
+					background-color: #FFFFFF;
+
+				}
+				#site > .center > .form-background > form > div > input[type="submit"],
+				#site > .center > .form-background > form > div > input[type="button"]{
+					border:1px solid #FFAF00;
+					background-color: #FFAF00;
+					color:black;
+					margin:0;
+					}
+					#site > .center > .form-background > form > div > #booking-previous-2,
+					#site > .center > .form-background > form > div > 	#booking-previous-1{
+						margin-bottom: 10px;
+					}
+					#site > .center > .form-background > form > div > input[type="submit"]:hover,
+					#site > .center > .form-background > form > div > input[type="button"]:hover{
+						background-color: #FFFFFF;
+						cursor:pointer;
+					}
+
+	.form-background{
+		padding:25px;
+		margin-top: 15px;
+		margin-left: 100px;
+		background-color: white;
+		float:left;
+		font-family: Lato Reg, arial, sans-serif;
+		}
+		.form-background > form > p{
+			margin-bottom: 20px;
+			text-align: left;
+			font-family: Lato Reg, arial, sans-serif;
+		}
+		.form-background > form > #booking-step-1 > label, .form-background > form > label  {
+			float: left;
+			margin-bottom: 5px;
+		}
+		.form-background > form > select, .form-background > form > input[type="date"] {
+		   	padding: 5px 10px 7px 10px;
+		    width: 350px;
+		    display:block;
+		    background-color: white;
+		    border: 1px solid #797979;
+		    color: #797979;
+		    font-family: Lato Reg, arial, sans-serif;
+		    font-size: 1em;
+		    margin-bottom: 15px;
+			}
+			.form-background > form > select:focus, .form-background > form > input[type="date"]:focus {
+			    border: 1px solid #FFAF00;
+			    color: black;
+			    outline: none;
+			}
+		.form-background > form > input[type="submit"]{
+			background-color: #FFAF00;
+		    transition:background-color 0.3s ease-in-out,
+		    color 0.3s ease-in-out;
+		    font-family: 'Lato', sans-serif;
+		    font-size: 1em;
+		    font-weight: bold;
+		    color: #353535;
+		    padding: 8px 40px;
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    cursor: pointer;
+		    border: 1px solid #FFAF00;
+		    width: 350px;
+		}
+		.form-background > form > div{
+			display:block;
+			}
+			.form-background > form > div > p{
+				display:block;
+				margin-bottom: 10px;
+				font-size: 1em;
+				color: #77787b;
+			}
+			.form-background > form > div > .rating {
+				width: 100px;
+				float:left;
+				}
+				.form-background > form > div > .rating > input.star {
+					display: none;
+				}
+				.form-background > form > div > .rating > label.star {
+				  float: right;
+				  padding: 4px 5px 4px 0;
+				  font-size: 16px;
+				  color: #77787b;
+				  transition: all .2s;
+				}
+				.form-background > form > div > .rating > input.star:checked ~ label.star:before {
+				  content: '\f005';
+				  color: #FFAF00;
+					transition: all .25s;
+				}
+				.form-background > form > div > .rating > label.star:hover, .form-background > form > div > .rating > label.star:hover ~ label.star {
+					content: '\f005'; color: #FFAF00;
+				}
+				.form-background > form > div > .rating > label.star:before {
+				  content: '\f006';
+					font-family: FontAwesome;
+				}
+				.form-background > form > div > .rating > span {
+					text-align: left;
+					display: inline-block;
+					position: relative;
+					width: 1.1em;
+					}
+					.form-background > form > div > .rating > span:hover:before,
+					.form-background > form > div > .rating > span:hover ~ span:before {
+						content: "\2605";
+						position: absolute;
+						color: #FFAF00;
+						cursor: pointer;
+					}
+			.form-background > form > div > label {
+				color: #77787b;
+	  			font-size: 1em;
+			}
+			.form-background > form > div > input[type="text"] {
+	  			display: block;
+	  			width:100%;
+	  			padding: 5px;
+	  			border: 1px solid #797979;
+	  			font-size: 1em;
+				}
+				.form-background > form > input[type="text"],
+				.form-background > form > input[type="password"]{
+					display: block;
+	  				width:100%;
+	  				margin-bottom: 15px;
+	  				padding: 10px;
+	  				border: 1px solid #797979;
+	  				font-size: 1em;
+				}
+				.form-background > form > div > #comments{
+					padding-top: 10px;
+					display:block;
+					width: 100%;
+					clear:both;
+				}
+				.form-background > form > div > #review-subject{
+					margin-bottom: 15px;
+				}
+			.form-background > form > div > textarea {
+				width: 350px;
+				padding: 10px 10px 10px 12px;
+				font-size: 14px;
+				margin-bottom: 15px;
+				font-family: Lato Light, arial, sans-serif;
+				border: 1px solid #797979;
+			}
+			.form-background > form > div > #submit-review{
+				font-family: Lato Reg, arial, sans-serif;
+			}
+
+/* =============== ADVERTS =============== */
+	#bookingElements{
+		float:left;
+		width:100%;
+		margin-bottom: 50px;
+	}
+	.header-home{
+		float:left;
+		width:100%;
+		margin-top: 75px;
+		}
+		.header-home > h1{
+		    color: #FFFFFF;
+		    text-align: center;
+		    font-size: 72px;
+		    font-family: Lato Bold, arial, sans-serif;
+		    margin-bottom: 15px;
+			}
+			.header-home > h1 > span {
+			  color: #ffaf00;
+			}
+	
+		.header-home > h2{
+		    color: #FFFFFF;
+		    text-align: center;
+			margin: 0 auto;
+	    	font-size: 28px;
+	   		font-family: Lato Bold, arial, sans-serif;
+		}
+	
+	#homeSearch{
+		float:left;
+		width:100%;
+		padding:0 200px;
+		margin-top: 90px;
+		margin-bottom: 100px;
+		}
+		#homeSearch > input[type="text"]{
+			width: 80%;
+		    padding: 5px 10px 7px 14px;
+		    margin: 0 2.5% 0 0px;
+		    background-color: white;
+		    border: 1px solid #797979;
+		    color: #797979;
+		    font-family: Lato Reg, sans-serif;
+		    font-size: 1em;
+		    outline: none;
+			}
+			#homeSearch > input[type=text]:focus {
+			    border: 1px solid #FFAF00;
+			    color: #797979;
+			}
+		#homeSearch > select {
+			width: 25%;
+			margin: 0 0px 0 0px;
+			margin-right: 2.5%;
+			-webkit-appearance: none;
+	   		-moz-appearance: none;
+	   		appearance: none;
+	   		-webkit-border-radius:0;
+	   		border-radius: 0;
+	   		background: url(../img/dropdown-arrow.png) 97% / 4.5% no-repeat #eee;
+	   		padding: 5px 10px 7px 14px;
+	    	background-color: white;
+	    	border: 1px solid #797979;
+	    	color: #797979;
+	    	font-family: Lato Reg, sans-serif;
+	    	font-size: 1em;
+		}
+		#homeSearch > input[type=submit] {
+		    background-color: #FFAF00;
+		    transition:background-color 0.3s ease-in-out,
+		    color 0.3s ease-in-out;
+		    font-family: Lato Reg, sans-serif;
+		    font-size: 1em;
+		    font-weight: bold;
+		    color: #353535;
+		    padding: 5px 0px 6px 0px;
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    cursor: pointer;
+		    border: 1px solid #FFAF00;
+		    width: 15%;
+		    text-align: center;
+			}
+			#homeSearch > input[type=submit]:hover {
+	    		background-color: transparent;
+	    		color: #FFFFFF;
+			}
+
+	.cameraRentingOffers {
+		float:left;
+		width:100%;
+		margin-top: 25px;
+		padding:0 200px 50px;
+		}
+		.cameraRentingOffers > h2{
+		    color: #FFFFFF;
+		    text-align: left;
+		    text-transform: uppercase;
+		    font-size: 23px;
+		    margin-bottom: 50px;
+		    font-family: Lato Bold, arial, sans-serif;
+		}
+		.cameraRentingOffers > article {
+		  	width:14%;
+		  	display: inline;
+		  	float: left;
+		  	margin-right: 7%;
+		  	margin-bottom: 50px;
+		  	text-decoration: none;
+		  	font-family: Lato Reg, arial, sans-serif;
+		  	-webkit-box-shadow: -6px 5px 10px 0px rgba(0,0,0,0.77);
+			-moz-box-shadow: -6px 5px 10px 0px rgba(0,0,0,0.77);
+			box-shadow: -6px 5px 10px 0px rgba(0,0,0,0.77);
+			}
+			.cameraRentingOffers > article:nth-child(5n+1){
+				margin-right: 0;
+			}
+			.cameraRentingOffers > article > .offer-background {
+				background: #ffffff;
+				margin:0 auto;
+				width:100%;
+				padding: 5px 10px;
+				float:left;
+				border-top:7px solid #FFAF00; 
+				text-decoration: none;
+				transition:border 0.1s ease-in-out;
+				}
+			.cameraRentingOffers > article > .offer-background:hover{
+				border-top:7px solid #2a4189; 
+				}
+				.cameraRentingOffers > article > .offer-background:hover > #offerTitle{
+					color:#FFAF00;
+				}
+
+			.cameraRentingOffers > article > .offer-background > img {
+				max-width:100%;
+				height: 82px;
+			  margin: 10px auto 0;
+			  display:block;
+			}
+			.cameraRentingOffers > article > .offer-background > #offerPrice {
+			  	color: #2a4189;
+			  	display:block;
+			  	font-size: 1.3em;
+			  	text-align: right;
+			}	
+			
+			.cameraRentingOffers > article > .offer-background > p {
+			  	color: #2a4189;
+			  	font-size: 0.5em;
+			  	margin: 0px 0px 0px 0px;
+			  	text-align: right;
+			  	display:block;
+			}
+			
+			.cameraRentingOffers > article > .offer-background > #offerTitle {
+				color: #2a4189;
+				text-decoration: none;
+				font-size: 1em;
+				margin: 20px 0px 10px;
+				text-align: center;
+				display:block;
+				transition: color 0.3s ease-in-out;
+			}
+			.adscroll{
+				height: 450px;
+				width: calc(100% - 200px);
+				overflow-y: hidden;
+				overflow-x: auto;
+				margin: 15px 0 15px 100px;
+			}
+	
+	#myAdvertElements {
+		width:1000%;
+		}
+		#myAdvertElements > article {
+			background: #ffffff;
+			width: 240px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			padding: 10px 10px;
+			float:left;
+			font-family: Lato Reg, arial, sans-serif;
+		}
+		#myAdvertElements > article > #advertPrice {
+		  	color: #2a4189;
+		  	display:block;
+		  	font-size: 1.8em;
+		  	text-align: right;
+			}	
+			#myAdvertElements > article > p {
+			  	color: #2a4189;
+			  	font-size: 0.9em;
+			  	margin: 0px 0px 0px 0px;
+			  	text-align: right;
+			  	display:block;
+			}
+		#myAdvertElements > article > #imageContainer {
+			width: 200px;
+			height: 120px;
+			margin:0 auto;
+			display: block;
+		}
+		#myAdvertElements > article > #imageContainer > img {
+			max-width: 100%;
+			height: 148px;
+		  	margin:0 auto;
+		  	display: block;
+		}
+		#myAdvertElements > article > #advertTitle {
+			color: #000000;
+			font-size: 1.4em;
+			padding-top: 15px;
+			margin-bottom: 10px;
+			margin-top: 20px;
+			text-align: center;
+			}
+			#myAdvertElements > article > #advertTitle > a{
+				text-decoration: none;
+				color:black;
+				}
+				#myAdvertElements > article > #advertTitle > a:hover{
+					text-decoration: underline;
+					color:#FFAF00;
+				}
+		#myAdvertElements > article > a {
+			background-color: #FFAF00;
+			transition:background-color 0.3s ease-in-out,
+			color 0.3s ease-in-out;
+			font-family: Lato Reg, arial, sans-serif;
+			font-size: 0.9em;
+			font-weight: bold;
+			color: #353535;
+			padding: 10px 0px;
+			text-decoration: none;
+			text-transform: uppercase;
+			cursor: pointer;
+			border: 1px solid #FFAF00;
+			margin:10px auto;
+			width: 200px;
+			text-align: center;
+			display: block;
+		}
+		#accountButtonLink:hover, #accountButtonLinkWide:hover, #accountButtonMyAdvertLink:hover, #accountButtonAdvertLink:hover {
+			background-color: #353535;
+			border: 1px solid #353535;
+			color: #FFFFFF;
+			}
+
+	#advert-back-form{
+		margin-top: 50px;
+		width:100%;
+		float:left;
+		padding:0 100px;
+		}
+		#advert-back-form > .half-form{
+			width:40%;
+			float:left;
+			font-family: Lato Reg, arial, sans-serif;
+			}
+		#advert-back-form > .half-form-denied{
+			width:40%;
+			float:left;
+			font-family: Lato Reg, arial, sans-serif;
+			color: #FFFFFF;
+		}
+		#advert-back-form > .half-form-denied > a{
+			width:40%;
+			float:left;
+			font-family: Lato Reg, arial, sans-serif;
+			color: #FFFFFF;
+		}
+			#advert-back-form > .half-form:last-child{
+				margin-left: 10%;
+			}
+			#advert-back-form > .half-form > input[type="text"]{
+				width:100%;
+				float:left;
+				padding:10px;
+				margin-bottom: 25px;
+			}
+			#advert-back-form > .half-form > textarea{
+				width:100%;
+				padding:10px;
+				margin-bottom: 35px;
+				float:left;
+				font-family: Lato Reg, arial, sans-serif;
+			}
+			#advert-back-form > .half-form > select{
+				padding:10px;
+				width:100%;
+				float:left;
+				margin-bottom: 25px;
+			}
+			#advert-back-form > .half-form > input[type="submit"]{
+				display:block;
+				padding:15px 0;
+				float:left;
+				width:220px;
+				text-align: center;
+				font-family: Lato SemiBold, arial, sans-serif;
+				background-color: #FFAF00;
+				border:1px solid #FFAF00;
+				transition: background-color 0.2s ease-in-out,
+							color 0.2s ease-in-out;
+				}
+				#advert-back-form > .half-form > input[type="submit"]:hover{
+					background-color: transparent;
+					cursor:pointer;
+					color:white;
+				}
+				#advert-back-form > .half-form > #image-upload{
+					color: #ffffff;
+					background-color: #1F3072;
+					border: 1px solid #1F3072;
+					}
+					#advert-back-form > .half-form > #image-upload:hover{
+						background-color: transparent;
+						cursor: pointer;
+					}
+					#advert-back-form > .half-form > #image-upload > img{
+						width: 200px;
+						height: auto;
+
+					}
+
+					#advert-back-form > .half-form > #imagePreview{
+						overflow-y:scroll;
+						max-height: 200px;
+						background-color: #FFFFFF;
+
+					}
+
+					#advert-back-form > .half-form > #imagePreviewCurrent{
+						overflow-y:scroll;
+						max-height: 200px;
+						background-color: #FFFFFF;
+
+					}
+
+					#advert-back-form > .half-form > #imagePreviewCurrent > .prevBlock {
+						width: 100%;
+						display: inline-block;
+
+					}
+
+			.imageThumb{
+				width:100px;
+				height:auto;
+			}
+
+	.view-advert-cont{
+		padding: 50px 15%;
+		position:relative;
+		width:100%;
+		height:100%;
+		}
+		.view-advert-cont > section{
+			float:left;
+			display:block;
+			width:65%;
+		}
+		.view-advert-cont > .slideshow{
+			float:left;
+			margin-bottom: 40px;
+			}
+			.slideshow > .cover{
+				width:100%;
+				height:350px;
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-color: rgba(0, 0, 0, 0.7);
+			}
+			.slideshow > .pics {
+				width:100%;
+				margin-top: 5px;
+				height:130px;
+				}
+				.slideshow > .pics > ul{
+					width:100%;
+					height:calc(100% + 10px);
+					overflow-y:hidden;
+					overflow-x: scroll;
+					white-space: nowrap;
+
+				}
+				.slideshow > .pics > ul > li{
+					height:120px;
+					display:inline-block;
+				}
+					.slideshow > .pics > ul > li > img{
+						height:120px;
+						border:3px solid transparent;
+						display:block;
+					}
+					.slideshow > .pics > ul > li > img.active{
+						border:3px solid #FFAF00;
+					}
+		.view-advert-cont > .side-box{
+			right:15%;
+			top:159px;
+			position:fixed;
+			height:400px;
+			width:22%;
+			min-width: 272px;
+			}
+			.side-box > article{
+				position: relative;
+				float:left;
+				width:100%;
+				margin-bottom:25px;
+				background-color: white;
+				border-radius: 3px;
+				padding:20px;
+				font-family: Lato Reg, arial, sans-serif;
+				}
+				.side-box > article:nth-child(2){
+					margin:15px 0 10px;
+				}
+				.side-box > article > h1{
+					font-size: 1.4em;
+					line-height: 1.4;
+					color:#FFAF00;
+					font-family: Lato Reg, arial, sans-serif;
+				}
+				.side-box > article > .side-box-rating{
+					margin-bottom: 10px;
+					}
+					.side-box > article > .side-box-rating > .noRevs{
+						color:#676466;
+						font-size: 10px;
+						font-style: italic;
+					}
+					.side-box > article > .side-box-rating > span{
+						color:#676466;
+						font-size: 20px;
+						}
+						.side-box > article > .side-box-rating > #plus{
+							color:#FFAF00;
+						}
+				.side-box > article > p {
+					overflow: hidden;
+  					display: -webkit-box;
+  					-webkit-line-clamp: 4;
+  					-webkit-box-orient: vertical;
+  					font-size: 14px;
+  					color:#797979;
+				}
+				.side-box > article > form{
+					float:left;
+					}
+					.side-box > article > form > div{
+						float:left;
+						margin-top: 25px;
+						width:100%;
+					}
+					.side-box > article > form > div > select{
+						color:rgba(0, 0, 0, 0.5);
+						border:1px solid #000000;
+						padding:5px;
+						width:45%;
+						outline:none;
+						font-family: Lato Reg, arial, sans-serif;
+						}
+						.side-box > article > form > div > select:hover,
+						.side-box > article > form > div > select:focus,
+						.side-box > article > form > div > select:active{
+							border:1px solid #FFAF00;
+							color:rgba(0, 0, 0, 1);
+						}
+						.side-box > article > form > div > select:nth-child(2){
+							margin-left: calc(10% - 5px);
+						}
+					.side-box > article > form > div > input[type="text"]{
+						border:none;
+						outline: none;
+						float:left;
+						font-size: 22px;
+						color:#1F3072;
+						display:inline;
+						line-height: 40px;
+						width:50%;
+						font-family: Lato Reg, arial, sans-serif;
+					}
+					.side-box > article > form > div > input[type="submit"], .side-box > article > form > div > #rent-sign-in{
+						display:inline;
+						float:right;
+						text-transform: uppercase;
+						text-align: center;
+						color:black;
+						text-decoration: none;
+						border:1px solid #FFAF00;
+						padding:10px 30px;
+						background-color: #FFAF00;
+						font-family: Lato SemiBold, arial, sans-serif;
+						font-size: 16px;
+						transition:background-color 0.1s ease-in-out;
+						}
+						.side-box > article > form > div > input[type="submit"]:hover, .side-box > article > form > div > #rent-sign-in:hover{
+							background-color: transparent;
+							cursor:pointer;
+						}
+
+				.side-box > article > a{
+					display:inline;
+					float:left;
+					text-transform: uppercase;
+					text-align: center;
+					border:1px solid #FFAF00;
+					padding:10px 30px;
+					background-color: #FFAF00;
+					font-family: Lato SemiBold, arial, sans-serif;
+					font-size: 14px;
+					transition:background-color 0.1s ease-in-out;
+					text-decoration: none;
+					color:black;
+					}
+					.side-box > article > a:hover{
+						background-color: transparent;
+						cursor:pointer;
+					}
+					.side-box > article > a:nth-child(2){
+						float:right;
+					}
+			.side-box > div{
+				display:block;
+				width:100%;
+				float:left;
+				text-align: center;
+			}
+				.side-box > div > a{
+					color:white;
+					text-decoration: none;
+					font-size: 20px;
+					font-family: Lato Reg, arial, sans-serif;
+					}
+					.side-box > div > a:hover{
+						color:red;
+					}
+		
+		.view-advert-cont > .sub-box{
+			float:left;
+			background-color: #FFFFFF;
+			border-radius: 3px;
+			margin-bottom: 40px;
+			padding:30px;
+			font-family: Lato Reg, arial, sans-serif;
+			}
+			.sub-box > h1{
+				text-align: left;
+				color:#FFAF00;
+				margin-bottom: 20px;
+			}
+			.sub-box > p{
+				display:block;
+				font-size: 14px;
+				margin-bottom: 20px;
+				line-height: 22px;
+			}
+			.sub-box > article{
+				width:100%;
+				display:block;
+				float:left;
+				margin-bottom:15px;
+			}
+			.sub-box > .ad-data > div{
+				float:left;
+				width:150px;
+				margin-right: 25px;
+				display:inline;
+			}
+			.sub-box > article > h2{
+				font-size: 16px;
+				font-family: Lato Reg, arial, sans-serif;
+			}
+
+			.sub-box > .review-container{
+				border-bottom:1px solid #797979;
+				padding-bottom: 10px;
+				margin-bottom: 20px;
+			}
+				.sub-box > .review-container > h2{
+					float: left;
+					display:block;
+					width:100%;
+					margin-bottom: 5px;
+				}
+
+			.sub-box > .review-container{
+				border-bottom:1px solid #797979;
+				padding-bottom: 25px;
+			}
+
+			.sub-box > article > .review-rating{
+					float:left;
+					display:block;
+					width:100%;
+					margin-right: 10px;
+					}
+					.sub-box > article > .review-rating > p{
+						display: inline;
+    					font-size: 10px;
+    					float: left;
+    					margin-top: 4px;
+    					margin-left: 3px;
+    					color: #7996C7;
+					}
+					.sub-box > article > .review-rating > span{
+						vertical-align: middle;
+						color:#676466;
+						line-height: 1;
+						float:left;
+						font-size: 18px;
+						}
+						.sub-box > article > .review-rating > #plus{
+							line-height: 1;
+							color:#FFAF00;
+						}
+			.sub-box > article > .review-content{
+				display:block;
+				float:left;
+				width: 100%;
+				margin: 20px 0 15px;
+				}
+				.sub-box > article > .review-content > p{
+					font-size: 14px;
+					line-height: 20px;
+				}
+			.sub-box > article > .review-by{
+				float:left;
+				display:block;
+				}
+				.sub-box > article > .review-by > p{
+					float:left;
+					display:inline;
+					line-height: 25px;
+					font-size: 12px;
+					color:#797979;
+					}
+					.sub-box > article > .review-by > p > span{
+						color:#7996C7;
+					}
+				.sub-box > article > .review-help{
+					display:inline;
+					float:right;
+					}
+					.sub-box > article > .review-help > a{
+						display:inline;
+						float:left;
+						color:black;
+						margin-left: 25px;
+						text-decoration: none;
+						text-transform: uppercase;
+						text-align: center;
+						border:1px solid #FFAF00;
+						padding:5px 25px;
+						font-family: Lato SemiBold, arial, sans-serif;
+						font-size: 12px;
+						transition:background-color 0.1s ease-in-out;
+						}
+						.sub-box > article > .review-help > a:hover{
+							color:#FFAF00;
+						}
+			.sub-box > a{
+				color:#7996C7;
+				text-decoration: none;
+				}
+				.sub-box > a:hover{
+					color:#FFAF00;
+					text-decoration: underline;
+				}
+
+ .acc-man > div > section > ul > li > .rating{
+					margin-bottom: 10px;
+				}
+ .acc-man > div > section > ul > li > .rating > .noRevs{
+					color:#676466;
+					font-size: 14px;
+				}
+ .acc-man > div > section > ul > li > .rating > #minus{
+					color:#676466;
+					font-size: 20px;
+				}
+ .acc-man > div > section > ul > li > .rating > #plus{
+					color:#FFAF00;
+				}
+
+#no-edit-pers section {
+	margin-bottom: 25px;
+}
+#no-edit-pers section ul{
+	float:left;
+	width:100%;
+}
+#no-edit-pers section ul li {
+	padding: 6px 0 6px 20px;
+	color: #292f33;
+	width: 100%;
+	float:left;
+	/*border-left: solid 4px #FFAF00;*/
+}
+#no-edit-pers section ul li:nth-child(odd){
+	background-color:rgba(0, 0, 0, 0.07);
+}
+
+#no-edit-pers section ul li p {
+	display: inline;
+	float: left;
+	max-width: 30%;
+}
+
+#no-edit-pers > section > ul > li > span {
+	display: inline-block;
+	width: 70%;
+	float: left;
+	color: #66757F;
+}
+
+#advert-back-form > .half-form > span {
+	font-size: 31px;
+	color: white;
+}
+
+
+
+#advert-back-form > .half-form > span > input[type="number"] {
+	width: 94%;
+	float: right;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+#advert-back-form > .half-form > span > input[type="number"]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+
+}
